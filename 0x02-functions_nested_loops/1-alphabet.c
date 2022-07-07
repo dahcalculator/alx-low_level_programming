@@ -2,7 +2,7 @@
 /**
  * print_alphabet - prints the alphabet in lowcase
  */
-void print_alphabet(alph)
+void print_alphabet(void)
 {
 	char alph;
 	for (alph = 'a'; alph <='z'; alph++)
