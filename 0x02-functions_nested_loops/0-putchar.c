@@ -6,14 +6,11 @@
  */
 void print_string(void)
 {
-		char s[10] = "_putchar\n";
-			int i = 0;
-
-				while (s[i])
-						{
-									_putchar(s[i]);
-											i++;
-												}
+	char s[10] = "_putchar\n";
+		int i = 0;
+				while (s[i])					{	
+		_putchar(s[i]);
+											i++;						 		 }
 }
 /**
  * main - entry point
