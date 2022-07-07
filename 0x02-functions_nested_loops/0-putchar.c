@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_string - print _putchar followed by newline
  *
@@ -16,12 +15,11 @@ void print_string(void)
 											i++;
 												}
 }
-
 /**
- *  * main - entry point
- *   *
- *    * Return: always 0
- *     */
+ * main - entry point
+ *
+ * Return: always 0
+ */
 int main(void)
 {
 		print_string();
