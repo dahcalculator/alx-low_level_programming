@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *  * print_string - print _putchar followed by newline
- *   *
- *    * Return: void
- *     */
+ * print_string - print _putchar followed by newline
+ *
+ * Return: void
+ */
 void print_string(void)
 {
 		char s[10] = "_putchar\n";
