@@ -1,13 +1,14 @@
 #include "main.h"
 
-/**
-* mul - Multiples two integers.
-* @a: The first integer to be multiplied.
-* @b: The second integer to be multiplied.
-*
-* Return: The result of the multiplication.
-*/
-int mul(int a, int b)
+/** git - checks if character is digit or not
+ * @c: character to be checked
+ *
+ * Return: 1 if digit | 0 if not
+ */
+ int _isdigit(int c)
 {
-		return (a * b);
+		if (c >= 48 && c <= 57)
+					return (1);
+			else
+					return (0);
 }
